@@ -1,0 +1,121 @@
+[{
+    "id": 1 ,
+    "nombre": "Remeron PUPPER",
+    "descripcion": "Remeron urbano temporada 2022",
+    "precio": 4999,
+    "genero": "u",
+    "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/415/192/products/72fe64ac-717f-43be-bc5f-bfcf205f3e301-5d0cab741515ec87ec16612132125078-480-0.jpeg",
+    "cat": "ropa",
+    "talles": "s/m/xl",
+    "stock": 3
+  },
+  {
+    "id": 2,
+    "nombre": "Nike Airforce 1 Blancas",
+    "descripcion": "Zapatillas Nike Airforce 1",
+    "precio": 39500,
+    "genero": "u",
+    "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f094af40-f82f-4fb9-a246-e031bf6fc411/calzado-air-force-1-07-b19lqD.png",
+    "cat": "calzado",
+    "talles": "37/38/39/42/43/45",
+    "stock": 4
+  },
+  {
+    "id": 3,
+    "nombre": "Remera Atmosphere",
+    "descripcion": "Remera trapper",
+    "precio": 3500,
+    "genero": "m",
+    "img": "https://cdn.shopify.com/s/files/1/0470/9895/3895/products/unisex-basic-softstyle-t-shirt-black-front-63027b7d0331c_1800x1800.jpg?v=1661107080",
+    "cat": "ropa",
+    "talles": "xs/s/m/l/xl/xxl",
+    "stock": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Remera HERMOSA",
+    "descripcion": "Remera trapper",
+    "precio": 4999,
+    "genero": "f",
+    "img": "https://cdn.shopify.com/s/files/1/0470/9895/3895/products/unisex-basic-softstyle-t-shirt-sport-grey-front-62a4f305383ec_1800x1800.jpg?v=1654977294",
+    "cat": "ropa",
+    "talles": "xs/s/m/l",
+    "stock": 10
+  },
+  {
+    "id": 5,
+    "nombre": "Remera Trapper Origins",
+    "descripcion": "Remera trapper",
+    "precio": 4999,
+    "genero": "u",
+    "img": "https://cdn.shopify.com/s/files/1/0470/9895/3895/products/unisex-basic-softstyle-t-shirt-sport-grey-front-62a4f305383ec_1800x1800.jpg?v=1654977294",
+    "cat": "ropa",
+    "talles": "xs/m/xl",
+    "stock": 8
+  },
+  {
+    "id": 6,
+    "nombre": "Riño FILA lifestyle",
+    "descripcion": "Riñonera fila LifesTyle",
+    "precio": 11049,
+    "genero": "u",
+    "img": "https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/r/i/ri_onera-fila-transparency-transparente-30003s201918100-1.jpg",
+    "cat": "accesorios",
+    "talles": "",
+    "stock": 5
+  },
+  {
+    "id": 7,
+    "nombre": "Riño FILA lifestyle N",
+    "descripcion": " ",
+    "precio": 0,
+    "genero": "u",
+    "img": "https://www.clicksport.com.ar/13047-thickbox_default/rinonera-fila-transparency-lifestyle-unisex.jpg",
+    "cat": "accesorios",
+    "talles": "",
+    "stock": 2
+  },
+  {
+    "id": 8,
+    "nombre": "SWAROVSKI Festina",
+    "descripcion": "Reloj femenino Swarovski festina cristal",
+    "precio": 51720,
+    "genero": "f",
+    "img": "https://www.joyeriasglow.com.ar/post/f20336-11-big.jpg",
+    "cat": "accesorios",
+    "talles": "",
+    "stock": 10
+  },
+  {
+    "id": 9,
+    "nombre": "Nike UrbanWear pants",
+    "descripcion": "Babucha Nike",
+    "precio": 9000,
+    "genero": "m",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5c823312-1b96-47a9-85b8-25049c0960e2/pants-sportswear-tech-fleece-0Tg4Xp.png",
+    "cat": "ropa",
+    "talles": "40/41/42/43/47/50",
+    "stock": 5
+  },
+  {
+    "id": 10,
+    "nombre": "Cargo B&W",
+    "descripcion": "Pantalon cargo blanco y negro",
+    "precio": 11000,
+    "genero": "m",
+    "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/015/914/products/211-700c766c193c18888816250802233943-1024-1024.jpg",
+    "cat": "ropa",
+    "talles": "44/45/46/47",
+    "stock": 5
+  },
+  {
+    "id": 11,
+    "nombre": "Nike porsche 917",
+    "descripcion": "Zapatillas Nike",
+    "precio": 54000,
+    "genero": "u",
+    "img": "https://autodinamico.mx/wp-content/uploads/2021/03/Nike-Porsche-917.jpg",
+    "cat": "calzado",
+    "talles": "36/37/38/39/43/44",
+    "stock": 30
+  }]
