@@ -3,7 +3,8 @@
 
 En este proyecto desarrolle una SAP Ecommerce utilizando ReactJS.
 
-Podés visualizar el sitio en: [[Netlify](https://markdownlivepreview.com/](https://reactcoderhousefoxstore.netlify.app/)](https://reactcoderhousefoxstore.netlify.app/).
+Podés visualizar el sitio en: [Netlify](https://reactcoderhousefoxstore.netlify.app/)
+
 
 
 ## Tecnologías / Librerias utilizadas
