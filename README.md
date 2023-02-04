@@ -7,7 +7,9 @@ Podés visualizar el sitio en: [Netlify](https://markdownlivepreview.com/).
 
 
 ## Tecnologías / Librerias utilizadas
-* HTML5, CSS, JS.
+* HTML5 .
+* CSS3 .
+* JS
 * [React JS + Create-react-app](https://create-react-app.dev/) .
 * [npm](https://www.npmjs.com/) .
 * [Bootstrap 5](https://getbootstrap.com/) .
