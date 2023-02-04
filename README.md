@@ -7,15 +7,15 @@ Podés visualizar el sitio en: [Netlify](https://markdownlivepreview.com/).
 
 
 ## Tecnologías / Librerias utilizadas
--HTML5, CSS, JS.
--[React JS + Create-react-app](https://create-react-app.dev/) /
--[npm](https://www.npmjs.com/) /
--[Bootstrap 5](https://getbootstrap.com/) /
--[React Router](https://reactrouter.com/en/main) /
--[React-Icons](https://react-icons.github.io/react-icons/) /
--[SweetAlert2](https://sweetalert2.github.io/) /
--[Firebase](https://firebase.google.com/products/firestore/) /
--[UiBall](https://uiball.com/loaders/) /
+*HTML5, CSS, JS .
+*[React JS + Create-react-app](https://create-react-app.dev/) .
+*[npm](https://www.npmjs.com/) .
+*[Bootstrap 5](https://getbootstrap.com/) .
+*[React Router](https://reactrouter.com/en/main) .
+*[React-Icons](https://react-icons.github.io/react-icons/) .
+*[SweetAlert2](https://sweetalert2.github.io/) .
+*[Firebase](https://firebase.google.com/products/firestore/) .
+*[UiBall](https://uiball.com/loaders/) .
 
 
 ## Screenshots
