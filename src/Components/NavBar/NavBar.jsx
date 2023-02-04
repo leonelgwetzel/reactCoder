@@ -4,6 +4,7 @@ import NavItem from "./NavItem";
 
 
 const NavBar = () => {
+
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,12 +34,13 @@ const NavBar = () => {
           >
             <ul className="navbar-nav d-flex">
               <NavItem href="/">Inicio</NavItem>
-              <NavItem href="/accesorios">Accesorios</NavItem>
-              <NavItem href="/calzado">Calzado</NavItem>
-              <NavItem href="/ropa">Indumentaria</NavItem>
+              <NavItem href="/bandoleras">Bandoleras</NavItem>
+              <NavItem href="/gorras">Gorras</NavItem>
+              <NavItem href="/relojes">Relojes</NavItem>
+              <NavItem href="/riñoneras">Riñoneras</NavItem>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/cart">
                   <CartWidget />
                 </Link>
               </li>

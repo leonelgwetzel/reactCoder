@@ -12,8 +12,7 @@ const ProductCard = ({ product }) => {
         </div>
         <div className="card-body d-flex flex-column align-content-center justify-content-end">
           <img
-            width='80%'
-            height='200px'
+            width='100%'
             className="mx-auto px-5"
             src={product.img}
             alt={product.nombre}
