@@ -1,0 +1,8 @@
+table{
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import NavItem from "./NavItem";
 
-
 const NavBar = () => {
 
   return (

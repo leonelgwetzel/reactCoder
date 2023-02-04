@@ -3,20 +3,34 @@
 
 En este proyecto desarrolle una SAP Ecommerce utilizando ReactJS.
 
-## Tecnologías / Librerias utilizadas
+Podés visualizar el sitio en: [Netlify](https://markdownlivepreview.com/).
 
-HTML5, CSS, JS, REACTJS, BOOTSTRAP5, REACTICONS, SWALLALERT2, REACT-ROUTER, FIREBASE/FIRESTORE, UIBALL-LOADERS.
+
+## Tecnologías / Librerias utilizadas
+*HTML5, CSS, JS.
+* [React JS + Create-react-app](https://create-react-app.dev/).
+*[npm](https://www.npmjs.com/)
+*[Bootstrap 5](https://getbootstrap.com/)
+*[React Router](https://reactrouter.com/en/main)
+*[React-Icons](https://react-icons.github.io/react-icons/)
+*[SweetAlert2](https://sweetalert2.github.io/)
+*[Firebase](https://firebase.google.com/products/firestore/)
+*[UiBall](https://uiball.com/loaders/)
 
 
 ## Screenshots
 
-![App Screenshot](https://i.postimg.cc/1tN9wFHr/Screenshot-2023-02-04-at-14-40-27-Fox-Store.png)
-![App Screenshot](https://i.postimg.cc/fyT9MBZR/Screenshot-2023-02-04-at-14-38-01-Fox-Store.png)
-![App Screenshot](https://i.postimg.cc/g2Dr23Sw/Screenshot-2023-02-04-at-14-39-45-Fox-Store.png)
+![App Screenshot](https://i.postimg.cc/jS0HkYnK/Screenshot-2023-02-04-at-18-43-47-Fox-Store.png)
+![App Screenshot](https://i.postimg.cc/3WMv62R9/Screenshot-2023-02-04-at-18-44-34-Fox-Store.png)
+![App Screenshot](https://i.postimg.cc/wvpxSFc1/Screenshot-2023-02-04-at-18-49-06-Fox-Store.png)
+![App Screenshot](https://i.postimg.cc/Px9yXpJv/Screenshot-2023-02-04-at-18-45-16-Fox-Store.png)
+![App Screenshot](https://i.postimg.cc/ZKcNjvmP/Screenshot-2023-02-04-at-18-47-04-Fox-Store.png)
+![App Screenshot](https://i.postimg.cc/wxk3dKrg/Screenshot-2023-02-04-at-18-47-52-Fox-Store.png)
+![App Screenshot](https://i.postimg.cc/cLvJYvLL/Screenshot-2023-02-04-at-18-48-21-Fox-Store.png)
 
 ## Comandos
 
-Para iniciar el servidor local ejecute el comando de inicio.
+Si descargas el repositorio, para iniciar el servidor local utilizá este comando:
 
 ```bash
   npm start

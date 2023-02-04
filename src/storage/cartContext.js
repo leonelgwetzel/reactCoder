@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import Swal from "sweetalert2";
 
 export const cartContext = createContext();
 
@@ -20,10 +21,23 @@ function CartProvider(props) {
 
   //Remove Product of Cart
   function removeItem(itemId) {
-    let newCart = cart.map((item) => item);
-    let itemIndex = newCart.findIndex((i) => i.id === itemId);
-    newCart.splice(itemIndex, 1);
-    setCart(newCart);
+    Swal.fire({
+      text: 'Desea quitar producto?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#000',
+      cancelButtonColor: '#7a7a7a',
+      cancelButtonText: 'Cancelar',
+      confirmButtonText: 'Si, quitar'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        let newCart = cart.map((item) => item);
+        let itemIndex = newCart.findIndex((i) => i.id === itemId);
+        newCart.splice(itemIndex, 1);
+        setCart(newCart);
+      }
+    })
+
   }
 
   //Clear Cart

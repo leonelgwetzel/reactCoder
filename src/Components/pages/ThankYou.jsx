@@ -1,20 +1,20 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { useParams } from 'react-router-dom';
+import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 const ThankYou = () => {
 
   let params = useParams();
 
   return (
     <div className="container text-center mt-5">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Emoji_u1f60e.svg/768px-Emoji_u1f60e.svg.png" width={300}/>
-      <h2 className='text-uppercase mt-3'>¡Muchas gracias por su compra!</h2>
+            <Link className="nav-link mt-4 text-start" to="/">
+        <span className="border-bottom border-end p-2 rounded shadow"><HiOutlineArrowNarrowLeft/> Volver a la tienda</span>
+      </Link>
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616519.png" width={300}/>
+      <h5 className='text-uppercase mt-5'>¡Muchas gracias por su compra!</h5>
       <br />
-      <h4>Te recordamos que tu ID de compra es: <b>{params.purchaseid}</b></h4>
-      <hr />
-      <Link className="nav-link mt-4 text-uppercase" to="/">
-            <span className="btn btn-outline-dark mt-2">Volver a la tienda</span>
-          </Link>
+      <p>Le recordamos que el <b>ID</b> de compra es: <b>{params.purchaseid}</b></p>
     </div>
   )
 }

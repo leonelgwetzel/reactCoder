@@ -10,18 +10,13 @@ import ThankYou from "./Components/pages/ThankYou";
 function App() {
 
   obtenerProductos();
-
-
-
-  function logOutSession() {
-    console.log("Logout");
-  }
+  
 
   return (
     <>
       <CartProvider>
         <BrowserRouter>
-          <NavBar onLogout={logOutSession} />
+          <NavBar/>
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
             <Route path="/detalle/:itemid" element={<ItemDetailContainer />} />

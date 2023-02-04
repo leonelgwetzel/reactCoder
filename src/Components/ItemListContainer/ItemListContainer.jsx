@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
-import { obtenerProductos, obtenerProductoPorCategoria } from "../../services/firebase";
-
-
+import {
+  obtenerProductos,
+  obtenerProductoPorCategoria,
+} from "../../services/firebase";
 import { useParams } from "react-router-dom";
-import Loader from '../Loader/Loader';
-
+import Loader from "../Loader/Loader";
+import Footer from "../Footer/Footer";
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
@@ -27,16 +28,19 @@ const ItemListContainer = () => {
   }, [categoria]);
 
   if (isLoading) {
-    return <Loader/>
+    return <Loader />;
   } else {
     return (
-      <main className="container mt-5">
-        <div className="row">
-          {products.map((p) => {
-            return <ProductCard key={p.id} product={p} />;
-          })}
-        </div>
-      </main>
+      <>
+        <main className="container mt-5">
+          <div className="row">
+            {products.map((p) => {
+              return <ProductCard key={p.id} product={p} />;
+            })}
+          </div>
+        </main>
+        <Footer />
+      </>
     );
   }
 };

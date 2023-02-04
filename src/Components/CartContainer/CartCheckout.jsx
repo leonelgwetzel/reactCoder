@@ -3,14 +3,13 @@ import { AiFillCreditCard, AiOutlineClear } from "react-icons/ai";
 import FormInput from "./FormInput";
 
 const CartCheckout = ({ getTotalPriceInCart, clearCart, handleCheckout }) => {
+  let totalCartPrice = getTotalPriceInCart();
 
-    let totalCartPrice = getTotalPriceInCart();
-
-    const [uData, setUData] = useState({
-      nombre: "",
-      email: "",
-      celular: ""
-    })
+  const [uData, setUData] = useState({
+    nombre: "",
+    email: "",
+    celular: "",
+  });
 
   const onInputChange = (e) => {
     let newState = { ...uData };
@@ -23,18 +22,9 @@ const CartCheckout = ({ getTotalPriceInCart, clearCart, handleCheckout }) => {
     handleCheckout(uData);
   };
 
-
-    
   return (
     <>
-      <div className="row">
-        <div className="col-12">
-          <h5 className="text-uppercase bg-dark text-white rounded ps-3 py-3">
-            Importe total: $<b>{totalCartPrice}</b>
-          </h5>
-        </div>
-      </div>
-      <div className="row m-2 border-secondary p-2 py-4 border-end border-start border-bottom rounded-bottom">
+      <div className="row m-2 border-secondary p-2 py-4 border rounded">
         <form className="row" onSubmit={handleSubmit}>
           <div className="col-sm-12 col-md-6">
             <FormInput
@@ -63,15 +53,18 @@ const CartCheckout = ({ getTotalPriceInCart, clearCart, handleCheckout }) => {
             />
           </div>
           <div className="col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
-            <button className="btn btn-dark w-75 p-2" type="submit">
-              <AiFillCreditCard /> Finalizar Compra
-            </button>
+            <h5 className="text-capitalize mb-4">
+              Importe total: $<b>{totalCartPrice.toLocaleString("es-Ar")}</b>
+            </h5>
             <button
               type="button"
               onClick={clearCart}
-              className="btn btn-outline-success w-75 mt-2 p-2"
+              className="btn btn-outline-success w-75 p-2"
             >
               <AiOutlineClear /> Vaciar Carrito
+            </button>
+            <button className="btn btn-dark w-75 mt-2 p-2" type="submit">
+              <AiFillCreditCard /> Finalizar Compra
             </button>
           </div>
         </form>

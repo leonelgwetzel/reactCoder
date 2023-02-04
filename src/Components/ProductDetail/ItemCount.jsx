@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { MdExposurePlus1, MdExposureNeg1 } from "react-icons/md";
+import { MdExposurePlus1, MdExposureNeg1, MdShoppingCart } from "react-icons/md";
 
 const ItemCount = ({stock = 1,onAddToCart}) => {
 
@@ -19,7 +19,7 @@ const ItemCount = ({stock = 1,onAddToCart}) => {
 
   return (
     <div className="w-100 mt-4">
-      <div className="div d-flex flex-row p-2 justify-content-between align-items-center border border-secondary mb-3 w-75 mx-auto">
+      <div className="div d-flex flex-row p-2 justify-content-between align-items-center border border-secondary mb-3 w-75">
         <button onClick={NegProduct} className="btn btn-outline-dark d-flex flex-column justify-content-center">
           <h6><MdExposureNeg1/></h6>
         </button>
@@ -27,9 +27,10 @@ const ItemCount = ({stock = 1,onAddToCart}) => {
         <button onClick={PlusProduct} className="btn btn-outline-dark d-flex flex-column justify-content-center">
           <h6><MdExposurePlus1/></h6>
         </button>
-      </div>
-      <div className="d-flex flex-row justify-content-center mt-5">
-        <button onClick={()=>{onAddToCart(ItemCount)}} className="btn btn-dark text-center pb-2">Agregar al carrito</button>
+        <button onClick={()=>{onAddToCart(ItemCount)}} className="btn btn-dark text-center pb-2">
+          <MdShoppingCart className="me-2"/> 
+          Agregar al carrito
+        </button>
       </div>
     </div>
   );
